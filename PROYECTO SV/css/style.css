@@ -1,0 +1,20 @@
+body{
+    background-color: #7A87C2;
+}
+.divmapa{
+
+    margin: auto;
+    position: absolute;
+    left: 25%;
+    bottom: 25%;
+}
+
+.divmapa path{
+    fill: #7AA3B4;
+    stroke: white;
+    stroke-width: 2px;
+}
+
+.divmapa :hover{
+    fill: #81C9CC;
+}
