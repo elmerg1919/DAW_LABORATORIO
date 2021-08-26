@@ -37,6 +37,23 @@ body{
     fill: #3C74EB;
 }
 
+.footer{
+    background-color: #212529;
+    padding: .5rem .8rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    padding: 5px;
+    }
+    footer p{
+        text-align: center;
+        color: white;
+        padding: 25px;
+        font-size: 15px;
+    }
+    
+
 
 /*ZONA-ORIENTAL*/
 
