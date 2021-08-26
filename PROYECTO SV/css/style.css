@@ -1,5 +1,5 @@
 body{
-    background-color: #7A87C2;
+    background-color: #7ED9D9;
 }
 .divmapa{
 
@@ -7,11 +7,16 @@ body{
     position: absolute;
     left: 25%;
     bottom: 25%;
+   top: 20%;
+   margin-left: -60px;
+   display: block;
+   
+   
 }
 
 .divmapa path{
     fill: #7AA3B4;
-    stroke: white;
+    stroke: black;
     stroke-width: 2px;
 }
 
@@ -19,21 +24,22 @@ body{
     fill: #81C9CC;
 }
 
-.footer{
-    background-color: #212529;
-    padding: .5rem .8rem;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-    padding: 5px;
-    }
-    footer p{
-        text-align: center;
-        color: white;
-        padding: 25px;
-        font-size: 15px;
-    }
-    .footer img{
-        width: 65px;
-        padding: 10px;
+/*ZONA Occidental*/
+
+#SV-AH, #SV-SA, #SV-SO{
+    fill: #F8F297;
+}
+
+/*ZONA CENTAL*/
+
+
+#SV-CU, #SV-PA, #SV-LI, #SV-SS, #SV-CH, #SV-CA, #SV-SV{
+    fill: #3C74EB;
+}
+
+
+/*ZONA-ORIENTAL*/
+
+#SV-SM, #SV-MO, #SV-US, #SV-UN{
+fill: #1DF055;
+}
