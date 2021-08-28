@@ -5,6 +5,10 @@
     
 }
 
+header{
+    flex-wrap: wrap;
+}
+
 .encabezado{
     background: rgb(3, 59, 61);
     font-family: 'Open Sans', sans-serif;
