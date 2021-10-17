@@ -2,17 +2,13 @@ body{
     background-color: #7ED9D9;
 }
 .divmapa{
-
-    margin: auto;
-    position: absolute;
-    left: 25%;
-    bottom: 25%;
-   top: 20%;
-   margin-left: -60px;
-   display: block;
-   
-   
+    position:static;
+    margin-top: 5%;
+   margin-left: 25%;
 }
+ .wrapper{
+    position:static;
+ }
 
 .divmapa path{
     fill: #7AA3B4;
