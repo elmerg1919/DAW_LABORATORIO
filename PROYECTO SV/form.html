@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_Eli.css">
+    <script src="form.js"></script>
+    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/stylefer.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+          <input type="checkbox" id="show-menu">
+          <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+          <div class="content">
+          <div class="logo"><a href="#">Ministerio de Turismo</a></div>
+            <ul class="links">
+              <li><a href="#">INICIO</a></li>
+              <li>
+                <a href="#" class="desktop-link">DEPARTAMENTOS</a>
+                <input type="checkbox" id="show-services">
+                <label for="show-services">DEPARTAMENTOS</label>
+                <ul>
+                  <li>
+                    <a href="#" class="desktop-link">ZONA CENTRAL</a>
+                    <input type="checkbox" id="show-items">
+                    <label for="show-items">ZONA CENTRAL</label>
+                    <ul>
+                      <li><a href="#">La Libertad</a></li>
+                      <li><a href="#">Chalatenango</a></li>
+                      <li><a href="#">Cuscatlán</a></li>
+                      <li><a href="#">San Salvador</a></li>
+                      <li><a href="#">La Paz</a></li>
+                      <li><a href="#">Cabañas</a></li>
+                      <li><a href="#">San Vicente</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#" class="desktop-link">ZONA OCCIDENTAL</a>
+                    <input type="checkbox" id="show-items">
+                    <label for="show-items">ZONA OCCIDENTAL</label>
+                    <ul>
+                      <li><a href="#">Ahuachapán</a></li>
+                      <li><a href="#">Santa Ana</a></li>
+                      <li><a href="#">Sonsonate</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#" class="desktop-link">ZONA ORIENTAL</a>
+                    <input type="checkbox" id="show-items">
+                    <label for="show-items">ZONA ORIENTAL</label>
+                    <ul>
+                      <li><a href="#">Usulután</a></li>
+                      <li><a href="#">San Miguel</a></li>
+                      <li><a href="#">La Union</a></li>
+                      <li><a href="#">Morazán</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="#">DESARROLLADORES</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    
+      <center> <div id="contenedorform">
+        <div id="form" >
+       <label>Nombre</label><br>
+       <input type="text" id="name" placeholder="Nombre y Apellido"><br>
+       <span role="alert" class="Error" id="errorname" aria-hidden="true">  </span>
+       
+        <br><label>Ingrese su correo</label><br>
+       <input type="text" id="gmail" placeholder="alguien@gmail.com"><br>
+       <span role="alert" class="Error" id="errorgmail" aria-hidden="true"></span>
+       <br><label>Pais de origen</label><br>
+       <select name="pai" id="pais" required>
+           <option value="1">Seleccione su pais</option>
+           <option value="2">Argentina</option>
+           <option value="3">Alemania</option>
+           <option value="4">Belice</option>
+           <option value="5">Costa Rica</option>
+           <option value="6">Canada</option>
+           <option value="7">Colombia</option>
+           <option value="8">El Salvador</option>
+           <option value="9">Honduraz</option>
+           <option value="10">Mexico</option>
+           <option value="11">Peru</option>
+           <option value="12">Usa</option>
+       </select>
+       <br><label>Escribe tu consulta</label><br>
+       <textarea name="area" id="consulta" cols="30" rows="10" placeholder="Escribe"></textarea>
+       <span role="alert" class="Error" id="errorconsulta" aria-hidden="true">  </span><br>
+       <div class="checkbox">
+        <label>
+          <input type="checkbox" checked class="text-muted">Acepto terminos y condiciones<a href="#"> ¿Tienes problemas con el formulario?</a>
+        </label>
+      </div>
+       <input type="submit" id="submit" class="btn btn-warning btn-block" value="Registrar" />
+       
+
+   </div>
+   </div></center>
+    
+    <!-- AQUI TERMINA EL CODIGO PARA SUS PAGINAS -->
+    
+    <script src="bootstrap/css/bootstrap.min.js" ></script>
+    </body>
+    
+    <footer class="footer">
+      <p>Univerdad Don Bosco</p>
+    </footer>
+    
+     
+    
+</body>
+</html>
