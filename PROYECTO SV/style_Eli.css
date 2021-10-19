@@ -38,10 +38,6 @@ label{
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
 }
-#submit{
-    width: 150px;
-    margin-bottom: 3%;
-}
 #contenedorform{
     border: solid white 3px;
     opacity: 90%;
