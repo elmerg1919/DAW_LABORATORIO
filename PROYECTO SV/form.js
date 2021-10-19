@@ -89,9 +89,6 @@ function init() {
         document.getElementById('obtener').addEventListener('click', obtain, false);
         document.getElementById('borrar').addEventListener('click', remove, false);
         document.getElementById('limpiar').addEventListener('click', clearStorage, false);
-
-        document.getElementById('guardar').addEventListener('click', saveComplexData, false);       
-        document.getElementById('gArreglo').addEventListener('click', saveArrayData, false);
     }
 
     if(typeof(Storage) == "undefined") {
@@ -167,38 +164,6 @@ function clearStorage() {
     divState.innerHTML = "<p>" + msj + "</p>";
     localStorage.clear();
 }
-function saveComplexData() {
-    var msj = "Guardando el dato complejo en el localStorage.";
-    console.log(msj);
-    divState.innerHTML = "<p>" + msj + "</p>";
-    var nombre = document.getElementById("name");
-    var correo = document.getElementById("gmail");
-    var pais = document.getElementById("pais");
-    var consulta = document.getElementById("consulta");
-    var personaObject = new Object();
-    personaObject.name = nombre.value;
-    personaObject.correo = correo.value;
-    personaObject.pais = pais.value;
-    personaObject.consulta = consulta.value;
-    localStorage.setItem("persona", JSON.stringify(personaObject));
-}
-function saveArrayData() {
-    var msj = "Guardando el arreglo en el localStorage.";
-    var nombre = document.getElementById("name");
-    var correo = document.getElementById("gmail");
-    var pais = document.getElementById("pais");
-    var consulta = document.getElementById("consulta");
-    var personaObject1 = new Object();
-    personaObject1.name = nombre.value;
-    personaObject1.correo = correo.value;
-    personaObject1.pais = pais.value;
-    personaObject1.consulta = consulta.value;
-    myArrayObject.push(personaObject1);
-    console.log(msj);
-    divState.innerHTML = "<p>" + msj + "</p>";
-    localStorage.setItem("personas", JSON.stringify(myArrayObject));
-}
-
 
 
 if (window.addEventListener) {
