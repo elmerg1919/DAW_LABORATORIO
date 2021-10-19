@@ -10,6 +10,7 @@
   background: #171c24;
   position: fixed;
   width: 100%;
+  top:0%;
 }
 .wrapper nav{
   position: relative;
@@ -24,6 +25,9 @@ nav .content{
   display: flex;
   align-items: center;
 }
+.titulo{
+  text-align: center;
+}
 nav .content .links{
   margin-left: 80px;
   display: flex;
@@ -32,6 +36,7 @@ nav .content .links{
   color: #fff;
   font-size: 30px;
   font-weight: 600;
+  
 }
 .content .links li{
   list-style: none;

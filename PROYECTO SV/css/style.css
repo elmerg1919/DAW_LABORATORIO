@@ -1,15 +1,17 @@
 body{
     background-color: #7ED9D9;
 }
-.divmapa{
-    position:static;
-    margin-top: 5%;
-   margin-left: 25%;
+.container{
+    max-width: 960px;
+    margin: 0 auto;
 }
- .wrapper{
-    position:static;
- }
 
+.divmapa{
+    width: 50%;
+    padding-top: 13.5%;
+    
+    background-size: contain;
+}
 .divmapa path{
     fill: #7AA3B4;
     stroke: black;
