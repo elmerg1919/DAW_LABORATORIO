@@ -1,16 +1,16 @@
 
 
 window.onload = function (){
-    const submit = document.getElementById("submit");
+    const submit = document.getElementById("agregar");
     submit.addEventListener('click', validate);
 }
 
 function validate(){
-//year
+//name
     const names = document.getElementById("name");
     const errornames = document.getElementById("errorname");
     expname = /^([a-zA-Z]{2,}\s[a-zA-z]{1,}'?-?[a-zA-Z]{2,}\s?([a-zA-Z]{1,})?)$/ ;
-//ccv
+//correo
 const gmails = document.getElementById("gmail");
 const errorgmails = document.getElementById("errorgmail");
 expgmail = /^\w+@(\w+\.)+\w{2,4}$/;
@@ -21,7 +21,7 @@ const errorconsultas = document.getElementById("errorconsulta");
 expconsulta = /^[A-z\s\S]{0,150}$/
 
 
-    //mes
+    //name
     if(!names.value){
         errornames.classList.add("visible")
         names.classList.add("invalid");
@@ -30,13 +30,13 @@ expconsulta = /^[A-z\s\S]{0,150}$/
     } else if (!expname.test(names.value)){
         errornames.classList.add("visible");
         names.classList.add("invalid");
-        msj = "Debe contener al menos un nombre y un apellido"
+        msj = "Debe contener al menos un nombre y un apellido, no se aceptan numeros"
         errornames.innerHTML = msj;
     } else{
         errornames.classList.remove("visible");
         names.classList.remove("invalid");
     }
-    //year
+    //correo
     if(!gmails.value){
         errorgmails.classList.add("visible");
         gmails.classList.add("invalid");
@@ -51,6 +51,7 @@ expconsulta = /^[A-z\s\S]{0,150}$/
         errorgmails.classList.remove("visible");
         gmails.classList.remove("invalid");
     }
+    //consulta
     if(!consultas.value){
         errorconsultas.classList.add("visible");
         consultas.classList.add("invalid");
@@ -67,18 +68,7 @@ expconsulta = /^[A-z\s\S]{0,150}$/
     }
 
     
-    
-    var nombreVariable=document.getElementById('pai');
-    if(nombreVariable.value==0 ||
-     nombreVariable.value == "")
-      {
-       alert("Selecciona Una opción");
-         nombreVariable.focus();}
-      
-       
-
-
-}
+}  
 
 var myArrayObject = [];
 var divState;
