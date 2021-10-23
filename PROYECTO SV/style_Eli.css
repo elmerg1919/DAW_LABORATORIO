@@ -39,8 +39,8 @@ label{
     -webkit-border-radius: 10px;
 }
 #contenedorform{
-    border: solid white 3px;
-    opacity: 90%;
+
+  
     background-color: white;
     -moz-border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -48,8 +48,11 @@ label{
     width: 60%;
     margin-top: 5em;
     box-shadow: 10px 10px 10px #999;
-
-}
+    position:static;
+    margin-left: 20%;
+    margin-top: 10%;
+  
+  }
 #consulta{
     width: 50%;
     height: 50px;
