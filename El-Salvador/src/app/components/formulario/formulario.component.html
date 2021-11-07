@@ -1,0 +1,47 @@
+
+  
+     
+         <div id="contenedorform">
+            <div id="form" >
+           <label>Nombre</label><br>
+           <input type="text" id="name" placeholder="Nombre y Apellido"><br>
+           <span role="alert" class="Error" id="errorname" aria-hidden="true">  </span>
+           
+            <br><label>Ingrese su correo</label><br>
+           <input type="text" id="gmail" placeholder="alguien@gmail.com"><br>
+           <span role="alert" class="Error" id="errorgmail" aria-hidden="true"></span>
+           <br><label>Pais de origen</label><br>
+           <select name="pai" id="pais" required>
+            <option value="1">Seleccione su pais</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Alemania">Alemania</option>
+            <option value="Belice">Belice</option>
+            <option value="Costa Rica">Costa Rica</option>
+            <option value="Canadá">Canadá</option>
+            <option value="Colombia">Colombia</option>
+            <option value="El Salvador">El Salvador</option>
+            <option value="Honduras">Honduras</option>
+            <option value="México">México</option>
+            <option value="Perú">Perú</option>
+            <option value="Estados Unidos">Estados Unidos</option>
+           </select>
+           <br><label>Escribe tu consulta</label><br>
+           <textarea name="area" id="consulta" cols="30" rows="10" placeholder="Escribe"></textarea>
+           <span role="alert" class="Error" id="errorconsulta" aria-hidden="true">  </span><br>
+           <div class="checkbox">
+            <label>
+              <input type="checkbox" checked class="text-muted">Acepto terminos y condiciones<a href="#"> ¿Tienes problemas con el formulario?</a>
+            </label>
+            <div>
+              <input type="submit" id="agregar" (click)="validate()" class="btn btn-warning btn-block" value="Registrar" />
+              <input type="submit" id="obtener" class="btn btn-warning btn-block" value="Obtener" />
+              <input type="submit" id="borrar" class="btn btn-warning btn-block" value="Remover" />
+              <input type="submit" id="limpiar" class="btn btn-warning btn-block" value="Limpiar" />
+            </div>
+            <div>
+            </div>   
+         </div>
+         <div id="estado"></div>
+           
+       </div>
+       </div>

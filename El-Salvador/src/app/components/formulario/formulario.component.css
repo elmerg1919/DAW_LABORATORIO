@@ -1,0 +1,67 @@
+#contenedorform{
+    margin-left: 20%;
+}
+label{
+ font: 1em sans-serif;
+ margin-right: 10px;
+}
+::-webkit-input-placeholder {
+    color: #808080;
+    text-align: center;
+    
+ 
+ }
+ #form{
+     margin-top: 1%;
+    
+ }
+#name{
+   
+    width: 70%;
+     height: 28px;
+     -moz-border-radius: 10px;
+     -webkit-border-radius: 10px;
+
+}
+#gmail{
+    width: 70%;
+    height: 28px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+
+}
+#pais{
+    width: 70%;
+    height: 28px;
+    margin-bottom: 1%;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+#contenedorform{
+    border: solid white 3px;
+    opacity: 90%;
+    background-color: white;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    padding: 10px;
+    width: 60%;
+    margin-top: 1.5em;
+    box-shadow: 10px 10px 10px #999;
+
+}
+#consulta{
+    width: 50%;
+    height: 50px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    background-color:rgba(252, 246, 246, 0.938);
+}
+
+
+.credit-card-div  span { padding-top:10px; }
+.credit-card-div img { padding-top:30px; }
+.credit-card-div .small-font { font-size:9px; }
+.credit-card-div .pad-adjust { padding-top:10px; }
+.Error { display: none; font-size: 0.8em; color: red;}
+.Error.visible {display: block;}
+input.invalid {border-color: red;}

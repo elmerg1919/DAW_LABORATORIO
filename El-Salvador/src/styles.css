@@ -1,0 +1,99 @@
+
+/* -----------navegacion---------------------------------------------------------- */
+body{
+    background-color: #7ED9D9;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+header{
+    flex-wrap: wrap;
+}
+
+.encabezado{
+    background: #212529;
+    font-family: 'Open Sans', sans-serif;
+}
+#titulo{
+    background-color: #212529;
+    text-align: center;
+    font-size:150%;
+    color: white;
+    height: 35px;
+}
+.dropdown-toggle{
+    color: white;
+}
+#ini{
+    color: white;
+
+}
+
+/*------------------ footer-----------------------------------------------------------*/
+.footer {
+    text-align: center;
+    font-family: sans-serif;
+    color: whitesmoke;
+    width: 100%;
+    bottom: 0;
+    position:fixed;
+    background-color: #212529;
+    padding: .5rem .8rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    padding: 5px;
+}
+
+
+    
+    footer p{
+        text-align: center;
+        color: white;
+        padding: 15px;
+        font-size: 15px;
+    }
+ /* --------------mapa-------------------------------------------------------------- */
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.divmapa{
+    width: 50%;
+    padding-top: 1.5%;
+    
+    background-size: contain;
+}
+.divmapa path{
+    fill: #7AA3B4;
+    stroke: black;
+    stroke-width: 2px;
+}
+
+.divmapa :hover{
+    fill: #81C9CC;
+}
+
+/*ZONA Occidental*/
+
+#SV-AH, #SV-SA, #SV-SO{
+    fill: #F8F297;
+}
+
+/*ZONA CENTAL*/
+
+
+#SV-CU, #SV-PA, #SV-LI, #SV-SS, #SV-CH, #SV-CA, #SV-SV{
+    fill: #3C74EB;
+}
+    
+
+
+/*ZONA-ORIENTAL*/
+
+#SV-SM, #SV-MO, #SV-US, #SV-UN{
+fill: #1DF055;
+}
+/* You can add global styles to this file, and also import other style files */
