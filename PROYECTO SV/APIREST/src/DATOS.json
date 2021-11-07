@@ -1,0 +1,122 @@
+[
+    {
+        "id":"1",
+            "nombre": "Departamento de Ahuchapan",
+            "superficie": "244.8 km²",
+            "municipios": "12 municipios",
+            "alcalde": "Abilio Flores Vásquez​​",
+            "habitantes": "129,750 habitantes"
+    },
+    {
+        "id":"2",
+        "nombre": "Departamento de Sonsonate",
+        "superficie": "232.5 km²",
+        "municipios": "16 municipios",
+        "alcalde": "Rafael Arévalo",
+        "habitantes": "72,951 habitantes"
+    },
+    {   "id":"3",
+        "nombre": "Departamento de San Vicente",
+        "superficie": "267,25 km²",
+        "municipios": "13 municipios",
+        "alcalde": "José Roberto Barrientos",
+        "habitantes": "53,213  habitantes"
+    },
+    {   "id":"4",
+        "nombre": "Departamento de Santa Ana",
+        "superficie": "2023 km²",
+        "municipios": "13 municipios",
+        "alcalde": "Gustavo Acevedo",
+        "habitantes": "631 100 habitantes"
+
+
+    },
+    {   "id":"5",
+        "nombre": "Departamento de San Salvador",
+        "superficie": "886.15 km²",
+        "municipios": "19 municipios",
+        "alcalde": "Mario Durán",
+        "habitantes": "2,750,000 habitantes"
+
+    },
+    {   "id":"6",
+        "nombre": "Departamento de San Miguel",
+        "superficie": "2077 km²",
+        "municipios": "20 municipios",
+        "alcalde": "Luis Sanhueza Bravo",
+        "habitantes": "520 022  habitantes"
+
+
+    },
+    {   "id":"7",
+        "nombre": "Departamento de La Paz",
+        "superficie": "1223.61 km²",
+        "municipios": "22 municipios",
+        "alcalde": "Víctor Manuel Coto Ayala",
+        "habitantes": "320,379 habitantes"
+
+    },
+    {   "id":"8",
+        "nombre": "Departamento de Morazan",
+        "superficie": "1 447 km²",
+        "municipios": "26 municipios",
+        "alcalde": "Francisco Gaitán",
+        "habitantes": "252,500 habitantes"
+
+    },
+    {   "id":"9",
+        "nombre": "Departamento de La Union",
+        "superficie": "144.4 km²",
+        "municipios": "18 municipios",
+        "alcalde": "Oscar Parada",
+        "habitantes": "34,045 habitantes"
+
+
+    },
+     {   "id":"10",
+            "nombre": "Departamento de La Libertad",
+            "superficie": "1653 km²",
+            "municipios": "22 municipios",
+            "alcalde": "Adelio Ortiz",
+            "habitantes": "660,653  habitantes"
+
+
+        },
+        {   "id":"11",
+            "nombre": "Departamento de Cuscatlan",
+            "superficie": "756 km²",
+            "municipios": "16 municipios",
+            "alcalde": "José Manuel Dueñas",
+            "habitantes": "232,238 habitantes"
+
+
+        },
+        {   "id":"12",
+            "nombre": "Departamento de Chalatenango",
+            "superficie": "131.8 km²",
+            "municipios": "33 municipios",
+            "alcalde": "Alfredo Hernández​​",
+            "habitantes": "21,102 habitantes"
+
+
+        },
+            {   "id":"13",
+                "nombre": "Departamento de Cabañas",
+                "superficie": "1,103.51 km²",
+                "municipios": "9 municipios",
+                "alcalde": "Jesus Edgar Bonilla Navarrete",
+                "habitantes": "149,326 habitantes"
+    
+    
+            },
+            {
+                "id":"14",
+                "nombre":"Departamento de Usulutan",
+                "superficie":"139.8 km²",
+                "municipios":"23 municipios",
+                "alcalde":"Luis Ernesto Ayala",
+                "habitantes": "73,064 habitantes"
+
+            }
+    
+]
